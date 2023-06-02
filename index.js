@@ -97,7 +97,7 @@ const CronFetchAndUpdate = async () => {
 };
 
 //Setting a time interval for running the function
-const timeInterval = 5*1000;
+const timeInterval = 10*60*1000;
 
 //Calling the function
 CronFetchAndUpdate();
